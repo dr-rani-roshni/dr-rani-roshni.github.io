@@ -1,0 +1,15 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="nutrition" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a8c09a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7fb069;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <circle cx="40" cy="40" r="35" fill="url(#nutrition)" opacity="0.1"/>
+  <path d="M30 20 Q40 10 50 20 Q40 30 30 20" fill="#7fb069"/>
+  <circle cx="25" cy="45" r="8" fill="#87ceeb" opacity="0.8"/>
+  <circle cx="55" cy="35" r="6" fill="#a8c09a"/>
+  <circle cx="45" cy="55" r="5" fill="#4a90a4"/>
+  <path d="M20 60 Q30 50 40 60 Q50 50 60 60" stroke="#7fb069" stroke-width="2" fill="none"/>
+  <circle cx="40" cy="40" r="3" fill="#7fb069"/>
+</svg> 
