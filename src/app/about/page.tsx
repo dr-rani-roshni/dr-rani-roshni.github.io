@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import { useScrollFadeIn } from "../useScrollFadeIn";
 
 export default function AboutPage() {
@@ -94,7 +93,7 @@ export default function AboutPage() {
             lineHeight: 1.8,
             margin: 0
           }}>
-            I believe that true wellness encompasses more than just physical health. My approach integrates functional movement, mindful nutrition, stress management, and mental well-being to create sustainable lifestyle transformations. Every individual's journey is unique, and I'm here to guide you toward discovering what works best for your body and life.
+            I believe that true wellness encompasses more than just physical health. My approach integrates functional movement, mindful nutrition, stress management, and mental well-being to create sustainable lifestyle transformations. Every individual&apos;s journey is unique, and I&apos;m here to guide you toward discovering what works best for your body and life.
           </p>
         </div>
         
@@ -209,7 +208,7 @@ export default function AboutPage() {
             <li style={{ marginBottom: '0.75rem' }}>Transformed over 5,000+ lives through personalized wellness coaching</li>
             <li style={{ marginBottom: '0.75rem' }}>Certified in Functional Movement Screening (FMS) and Corrective Exercise</li>
             <li style={{ marginBottom: '0.75rem' }}>Featured wellness expert on national health podcasts and conferences</li>
-            <li style={{ marginBottom: '0.75rem' }}>Author of "The Mindful Body" - a holistic approach to health and fitness</li>
+            <li style={{ marginBottom: '0.75rem' }}>Author of &quot;The Mindful Body&quot; - a holistic approach to health and fitness</li>
             <li>Doctorate in Sports Medicine with specialization in preventive care</li>
           </ul>
         </div>

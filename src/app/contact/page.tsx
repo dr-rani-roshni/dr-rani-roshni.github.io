@@ -55,7 +55,7 @@ export default function ContactPage() {
               marginBottom: '1rem',
               lineHeight: 1.2
             }}>
-              <span>Let's Connect</span>
+              <span>Let&apos;s Connect</span>
             </h1>
           </div>
           
@@ -66,7 +66,7 @@ export default function ContactPage() {
             margin: '0 auto',
             lineHeight: 1.6
           }}>
-            Ready to begin your wellness transformation? I'd love to hear about your goals and how I can support your journey.
+            Ready to begin your wellness transformation? I&apos;d love to hear about your goals and how I can support your journey.
           </p>
         </div>
       </section>
@@ -253,8 +253,8 @@ export default function ContactPage() {
                 zIndex: 1,
                 transition: 'color 0.3s ease'
               }}
-              onMouseEnter={(e) => e.target.style.color = 'var(--wellness-accent)'}
-              onMouseLeave={(e) => e.target.style.color = 'var(--wellness-green)'}
+              onMouseEnter={(e) => (e.target as HTMLElement).style.color = 'var(--wellness-accent)'}
+              onMouseLeave={(e) => (e.target as HTMLElement).style.color = 'var(--wellness-green)'}
             >
               info@wellnesswithdrrani.fit
             </a>
@@ -308,8 +308,8 @@ export default function ContactPage() {
                 zIndex: 1,
                 transition: 'color 0.3s ease'
               }}
-              onMouseEnter={(e) => e.target.style.color = 'var(--wellness-accent)'}
-              onMouseLeave={(e) => e.target.style.color = 'var(--wellness-green)'}
+              onMouseEnter={(e) => (e.target as HTMLElement).style.color = 'var(--wellness-accent)'}
+              onMouseLeave={(e) => (e.target as HTMLElement).style.color = 'var(--wellness-green)'}
             >
               @wellnesswithdrrani
             </a>

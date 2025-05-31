@@ -97,7 +97,7 @@ export default function BlogPage() {
       {/* Main Content */}
       <main style={{ maxWidth: 900, margin: '0 auto', padding: '3rem 1rem' }}>
         <div style={{ display: 'grid', gap: '2rem' }}>
-          {posts.map((post, index) => (
+          {posts.map((post) => (
             <article key={post.slug} className="wellness-card fade-in-up" style={{ 
               transition: 'all 0.3s ease',
               padding: '1.5rem',

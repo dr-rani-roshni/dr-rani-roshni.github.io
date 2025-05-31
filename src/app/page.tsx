@@ -256,7 +256,7 @@ export default function Home() {
             <div className="wellness-card testimonial-card fade-in-up" style={{ padding: '1.5rem', textAlign: 'left' }}>
               <div style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>⭐⭐⭐⭐⭐</div>
               <p style={{ color: 'var(--foreground)', fontSize: '1rem', marginBottom: '1.5rem', fontStyle: 'italic' }}>
-                "Dr. Rani completely changed my relationship with fitness and food. Her holistic approach helped me find balance I never thought possible."
+                &quot;Dr. Rani completely changed my relationship with fitness and food. Her holistic approach helped me find balance I never thought possible.&quot;
               </p>
               <div style={{ color: 'var(--wellness-accent)', fontWeight: 600, fontSize: '0.9rem' }}>
                 — Sarah M., Marketing Executive
@@ -266,7 +266,7 @@ export default function Home() {
             <div className="wellness-card testimonial-card fade-in-up" style={{ padding: '1.5rem', textAlign: 'left' }}>
               <div style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>⭐⭐⭐⭐⭐</div>
               <p style={{ color: 'var(--foreground)', fontSize: '1rem', marginBottom: '1.5rem', fontStyle: 'italic' }}>
-                "The mindfulness techniques have been life-changing. I feel more centered and confident than ever before."
+                &quot;The mindfulness techniques have been life-changing. I feel more centered and confident than ever before.&quot;
               </p>
               <div style={{ color: 'var(--wellness-accent)', fontWeight: 600, fontSize: '0.9rem' }}>
                 — Michael R., Entrepreneur
@@ -276,7 +276,7 @@ export default function Home() {
             <div className="wellness-card testimonial-card fade-in-up" style={{ padding: '1.5rem', textAlign: 'left' }}>
               <div style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>⭐⭐⭐⭐⭐</div>
               <p style={{ color: 'var(--foreground)', fontSize: '1rem', marginBottom: '1.5rem', fontStyle: 'italic' }}>
-                "Finally, a wellness approach that fits into my busy mom life. Practical, sustainable, and truly transformative."
+                &quot;Finally, a wellness approach that fits into my busy mom life. Practical, sustainable, and truly transformative.&quot;
               </p>
               <div style={{ color: 'var(--wellness-accent)', fontWeight: 600, fontSize: '0.9rem' }}>
                 — Jessica L., Mother of Three

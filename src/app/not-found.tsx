@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useScrollFadeIn } from "./useScrollFadeIn";
 
 export default function NotFound() {
@@ -79,7 +80,7 @@ export default function NotFound() {
             maxWidth: 500,
             margin: '0 auto 2.5rem'
           }}>
-            The page you're looking for seems to have taken a detour on its wellness journey. Let's get you back on track!
+            The page you&apos;re looking for seems to have taken a detour on its wellness journey. Let&apos;s get you back on track!
           </p>
           
           {/* Action Buttons */}
@@ -90,15 +91,15 @@ export default function NotFound() {
             alignItems: 'center',
             width: '100%'
           }}>
-            <a href="/" className="btn-primary" style={{ 
+            <Link href="/" className="btn-primary" style={{ 
               fontSize: '1.1rem', 
               padding: '1rem 2.5rem',
               maxWidth: '280px',
               width: '100%'
             }}>
               Return Home 🏠
-            </a>
-            <a href="/contact" style={{
+            </Link>
+            <Link href="/contact" style={{
               display: 'inline-block',
               background: 'transparent',
               color: 'var(--wellness-accent)',
@@ -113,7 +114,7 @@ export default function NotFound() {
               textAlign: 'center'
             }}>
               Get Help 💬
-            </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -178,7 +179,7 @@ export default function NotFound() {
               }}>
                 Learn about my holistic approach to wellness
               </p>
-              <a 
+              <Link 
                 href="/about" 
                 style={{ 
                   color: 'var(--wellness-green)', 
@@ -191,7 +192,7 @@ export default function NotFound() {
                 }}
               >
                 Learn More →
-              </a>
+              </Link>
             </div>
             
             <div className="wellness-card fade-in-up" style={{ 
@@ -241,7 +242,7 @@ export default function NotFound() {
               }}>
                 Evidence-based tips and insights
               </p>
-              <a 
+              <Link 
                 href="/blog" 
                 style={{ 
                   color: 'var(--wellness-green)', 
@@ -254,7 +255,7 @@ export default function NotFound() {
                 }}
               >
                 Read Articles →
-              </a>
+              </Link>
             </div>
             
             <div className="wellness-card fade-in-up" style={{ 
@@ -304,7 +305,7 @@ export default function NotFound() {
               }}>
                 Start your transformation journey
               </p>
-              <a 
+              <Link 
                 href="/contact" 
                 style={{ 
                   color: 'var(--wellness-green)', 
@@ -317,7 +318,7 @@ export default function NotFound() {
                 }}
               >
                 Contact Us →
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -352,10 +353,10 @@ export default function NotFound() {
             lineHeight: 1.6,
             marginBottom: '2rem'
           }}>
-            What matters is finding your way back to wellness. We're here to guide you every step of the way.
+            What matters is finding your way back to wellness. We&apos;re here to guide you every step of the way.
           </p>
           <div className="fade-in-up">
-            <a href="/" style={{
+            <Link href="/" style={{
               display: 'inline-block',
               background: 'white',
               color: 'var(--wellness-green)',
@@ -369,7 +370,7 @@ export default function NotFound() {
               maxWidth: '250px'
             }}>
               Start Fresh ✨
-            </a>
+            </Link>
           </div>
         </div>
       </section>
