@@ -24,7 +24,7 @@ A modern, mobile-first wellness website built with Next.js featuring holistic he
 
 ```bash
 # Install dependencies
-npm install
+npm install 
 
 # Start development server
 npm run dev
